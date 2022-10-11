@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".calculator">
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="100dp"
+        android:layout_marginBottom="@dimen/space_medium"
+        android:layout_height="wrap_content"
+        android:hint="정수입력1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="100dp"
+        android:layout_marginBottom="@dimen/space_medium"
+        android:layout_height="wrap_content"
+        android:hint="정수입력2"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_plus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_medium"
+        android:padding="@dimen/space_medium"
+        android:textSize="@dimen/text_size_medium"
+        android:text="@string/btn_plus"/>
+
+    <Button
+        android:id="@+id/btn_minus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_medium"
+        android:padding="@dimen/space_medium"
+        android:textSize="@dimen/text_size_medium"
+        android:text="@string/btn_minus"/>
+
+    <Button
+        android:id="@+id/btn_multi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_medium"
+        android:padding="@dimen/space_medium"
+        android:textSize="@dimen/text_size_medium"
+        android:text="@string/btn_multi"/>
+
+    <Button
+        android:id="@+id/btn_divide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_medium"
+        android:padding="@dimen/space_medium"
+        android:textSize="@dimen/text_size_medium"
+        android:text="@string/btn_divide"/>
+
+    <Button
+        android:id="@+id/btn_mod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_medium"
+        android:padding="@dimen/space_medium"
+        android:textSize="@dimen/text_size_medium"
+        android:text="@string/btn_mod"/>
+
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:textSize="@dimen/text_size_large"
+        android:textColor="@color/red"
+        android:text="@string/text_result"
+        />
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
