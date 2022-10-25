@@ -53,6 +53,26 @@
         android:layout_toRightOf="@id/baseBtn"
         android:text="6번"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/baseBtn"
+        android:layout_toLeftOf="@id/baseBtn"
+        android:text="7번"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/baseBtn"
+        android:layout_toRightOf="@id/baseBtn"
+        android:text="8번"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/baseBtn"
+        android:layout_toLeftOf="@id/baseBtn"
+        android:text="9번"/>
 
 
 </RelativeLayout>
