@@ -1,6 +1,124 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</GridLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+    <GridLayout
+        android:rowCount="2"
+        android:columnCount="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="2dp"
+            android:text="0"/>
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="2dp"
+            android:text="1"/>
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="2dp"
+            android:text="2"/>
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="2dp"
+            android:text="3"/>
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="2dp"
+            android:text="4"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="2dp"
+            android:text="5"/>
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="2dp"
+            android:text="6"/>
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="2dp"
+            android:text="7"/>
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="2dp"
+            android:text="8"/>
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="2dp"
+            android:text="9"/>
+    </GridLayout>
+
+    <Button
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="20dp"
+        android:text="더하기"/>
+
+    <Button
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="20dp"
+        android:text="빼기"/>
+    <Button
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="20dp"
+        android:text="곱하기"/>
+    <Button
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="20dp"
+        android:text="나누기"/>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="계산결과 : "
+        android:textSize="30dp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
