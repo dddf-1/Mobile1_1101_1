@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Moblie_1108_2</string>
+    <string name="btn_start">예약시작</string>
+    <string name="btn_done">예약완료</string>
+    <string name="rb_date">날짜설정(calender view)</string>
+    <string name="rb_time">시간설정</string>
+    <string name="text">예약 내용 출력 부분</string>
+
+
+</resources>
