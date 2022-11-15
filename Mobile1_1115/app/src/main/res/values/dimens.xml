@@ -6,4 +6,5 @@
     <dimen name ="space_s">15dp</dimen>
     <dimen name ="space_m">25dp</dimen>
     <dimen name ="space_l">35dp</dimen>
+    <dimen name="space_xl">50dp</dimen>
 </resources>

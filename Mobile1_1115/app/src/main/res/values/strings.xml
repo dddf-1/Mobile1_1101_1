@@ -1,10 +1,9 @@
 <resources>
-    <string name="app_name">Moblie1_1115</string>
+    <string name="app_name">Mobile1_1115</string>
     <string name="btn_start">예약시작</string>
     <string name="btn_done">예약완료</string>
-    <string name="rb_date">날짜설정(calender view)</string>
-    <string name="rb_time">시간설정</string>
-    <string name="text">예약 내용 출력 부분</string>
+    <string name="radio_date">날짜설정(캘린더뷰)</string>
+    <string name="radio_time">시간설정</string>
 
 
 </resources>
