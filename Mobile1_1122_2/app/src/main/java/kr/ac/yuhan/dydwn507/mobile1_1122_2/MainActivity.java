@@ -17,9 +17,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.view_flipper);
 
         viewFlip = findViewById(R.id.view_flip);
-        Button btnPrew = findViewById(R.id.btn_prew);
+        Button btnPrev = findViewById(R.id.btn_prev);
         Button btnNext = findViewById(R.id.btn_next);
-        btnPrew.setOnClickListener(btnL);
+        btnPrev.setOnClickListener(btnL);
         btnNext.setOnClickListener(btnL);
 
     }
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View view) {
 
             switch (view.getId()){
-                case R.id.btn_prew:
+                case R.id.btn_prev:
                     viewFlip.showPrevious();
                     break;
                 case R.id.btn_next:
