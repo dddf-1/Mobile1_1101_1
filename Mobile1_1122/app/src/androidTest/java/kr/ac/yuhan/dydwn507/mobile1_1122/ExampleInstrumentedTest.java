@@ -1,4 +1,4 @@
-package kr.ac.yuhan.dydwn507.myapplication;
+package kr.ac.yuhan.dydwn507.mobile1_1122;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("kr.ac.yuhan.dydwn507.myapplication", appContext.getPackageName());
+        assertEquals("kr.ac.yuhan.dydwn507.mobile1_1122", appContext.getPackageName());
     }
 }

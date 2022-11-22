@@ -1,4 +1,4 @@
-package kr.ac.yuhan.dydwn507.myapplication;
+package kr.ac.yuhan.dydwn507.mobile1_1122;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -17,8 +17,8 @@ public class MainActivity extends AppCompatActivity {
         AutoCompleteTextView autoText = findViewById(R.id.auto_text);
         MultiAutoCompleteTextView multiText = findViewById(R.id.multi_text);
 
-        String[] items = {"app", "apple","apartment", "bullet","burn","band","corruption","conserve","capture","drop","duration","deposit"};
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, items);
+        String[] items = {"apple", "apartment", "appear", "banana", "band", "backup", "core", "cold", "code", "duration", "during", "government", "good", "gold"};
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, items);
         autoText.setAdapter(adapter);
 
         MultiAutoCompleteTextView.CommaTokenizer token = new MultiAutoCompleteTextView.CommaTokenizer();

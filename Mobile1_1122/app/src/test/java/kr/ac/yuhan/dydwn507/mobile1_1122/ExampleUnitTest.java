@@ -1,4 +1,4 @@
-package kr.ac.yuhan.dydwn507.myapplication;
+package kr.ac.yuhan.dydwn507.mobile1_1122;
 
 import org.junit.Test;
 
