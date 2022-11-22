@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    android:orientation="vertical"
     android:padding="30dp"
-    android:orientation="vertical">
+    tools:context=".MainActivity">
 
     <AutoCompleteTextView
         android:id="@+id/auto_text"
@@ -16,13 +16,13 @@
         android:completionThreshold="2"
         android:layout_marginBottom="20dp"
         android:hint="자동완성기능 가능"/>
-
     <MultiAutoCompleteTextView
         android:id="@+id/multi_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:completionHint="단어를 선택해주세요"
+        android:completionHint="단어를 선택하세요."
         android:completionThreshold="2"
-        android:hint="멀티자동완성기능"/>
+        android:hint="멀티자동완성기능 가능"/>
+
 
 </LinearLayout>
